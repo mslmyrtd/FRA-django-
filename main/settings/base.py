@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     "users",
+    'rest_framework.authtoken',
+    'dj_rest_auth',
     
 ]
 
