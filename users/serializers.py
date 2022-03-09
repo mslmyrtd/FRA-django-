@@ -51,7 +51,7 @@ class UserTokenSeriliazer(serializers.ModelSerializer):
     class Meta:
         model=User
         fields=("id","first_name","last_name","email")
-class CustomToken(TokenSerializer):
+class CustomTokenSerializer(TokenSerializer):
     user=UserTokenSeriliazer(read_only=True)
     
     class Meta(TokenSerializer.Meta):
