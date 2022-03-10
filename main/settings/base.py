@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     "users",
-    "flightapp",
     'rest_framework.authtoken',
     'dj_rest_auth',
     
