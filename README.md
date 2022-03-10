@@ -1,7 +1,7 @@
 # FlightApp-django
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Visdor App</h1>
+
 
 
 <div align="center">
@@ -39,9 +39,7 @@
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- HTML
-- CSS
-- JS
+
 - Django
 
 
